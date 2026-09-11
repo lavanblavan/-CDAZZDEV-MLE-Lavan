@@ -15,7 +15,11 @@ Tools are reused from Task 1 ([Financial_AI](https://github.com/lavanblavan/Fina
 
 [Open in Colab](https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/Agentic_workflow/task3.ipynb)
 
-Cell 1 clones this repo into `/content`, installs `requirements.txt`, then imports `src`. Opening a notebook from GitHub does **not** copy `src/` with it — the clone step is required.
+Cell 1 clones the submission repo into `/content/CDAZZDEV-MLE-Lavan`, enters `Agentic_workflow/`, installs `requirements.txt`, then imports `src`. Add `OPENROUTER_API_KEY` and/or `GROQ_API_KEY` in Colab Secrets before running.
+
+Opening a notebook from GitHub does **not** copy `src/` with it — the clone step is required.
+
+AI tool disclosure: [`CITATIONS.md`](../CITATIONS.md) (repo root).
 
 ## Five tools
 

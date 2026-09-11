@@ -64,17 +64,15 @@ pytest
 
 See `docs/RULE_SELECTION.md` for the holdout comparison table and rationale.
 
-AI tool disclosure: `AI_CITATIONS.md`.
+AI tool disclosure: [`CITATIONS.md`](../CITATIONS.md) (repo root).
 
-## Colab run (after the repo is on GitHub)
+## Colab run
 
-Open:
+[Open task1.ipynb in Colab](https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/Financial_AI/task1.ipynb)
 
-`https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/Financial_AI/task1.ipynb`
+Cell 1 clones the submission repo into `/content/CDAZZDEV-MLE-Lavan`, enters `Financial_AI/`, installs `requirements.txt`, then imports `src`. Add `GROQ_API_KEY` in Colab Secrets before running.
 
-Cell 1 clones this repo into `/content`, installs `requirements.txt`, then imports `src`.
-
-Opening a notebook from GitHub does **not** copy `src/` with it. The clone step is required.
+Opening a notebook from GitHub does **not** copy `src/` with it — the clone step is required.
 
 ## What is not committed
 
