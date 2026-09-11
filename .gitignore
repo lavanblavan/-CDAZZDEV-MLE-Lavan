@@ -1,0 +1,34 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Nested git repos (each task was developed in its own repo)
+Financial_AI/.git/
+Agentic_workflow/.git/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.cursor/
+
+# Task-specific generated files (see each task .gitignore)
+Financial_AI/data/*.csv
+Financial_AI/outputs/*
+!Financial_AI/outputs/.gitkeep
+Agentic_workflow/data/*.csv
+Agentic_workflow/logs/*.jsonl
+Agentic_workflow/logs/*.json
+Agentic_workflow/logs/cache/
+Agentic_workflow/outputs/*
+!Agentic_workflow/outputs/.gitkeep
+!Agentic_workflow/logs/.gitkeep
+Agentic_workflow/vendor_financial_ai/
