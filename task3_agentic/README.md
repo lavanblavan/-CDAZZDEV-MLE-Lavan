@@ -2,7 +2,7 @@
 
 Repo: [lavanblavan/Agentic_financial_Analyser](https://github.com/lavanblavan/Agentic_financial_Analyser.git)
 
-Tools are reused from Task 1 ([Financial_AI](https://github.com/lavanblavan/Financial_AI.git)); the agent layer chooses when to call them.
+Tools are reused from Task 1 (`task1_financial/`); the agent layer chooses when to call them.
 
 ## Notebook
 
@@ -13,9 +13,9 @@ Tools are reused from Task 1 ([Financial_AI](https://github.com/lavanblavan/Fina
 | Research agent (A) | `ask_agent_a` — tool selection + session memory |
 | Critic agent (B) | `run_two_agents` + `ask` — critique loop + full-pipeline memory |
 
-[Open in Colab](https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/Agentic_workflow/task3.ipynb)
+[Open in Colab](https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/task3_agentic/task3.ipynb)
 
-Cell 1 clones the submission repo into `/content/CDAZZDEV-MLE-Lavan`, enters `Agentic_workflow/`, installs `requirements.txt`, then imports `src`. Add `OPENROUTER_API_KEY` and/or `GROQ_API_KEY` in Colab Secrets before running.
+Cell 1 clones the submission repo into `/content/CDAZZDEV-MLE-Lavan`, enters `task3_agentic/`, installs `requirements.txt`, then imports `src`. Add `OPENROUTER_API_KEY` and/or `GROQ_API_KEY` in Colab Secrets before running.
 
 Opening a notebook from GitHub does **not** copy `src/` with it — the clone step is required.
 
