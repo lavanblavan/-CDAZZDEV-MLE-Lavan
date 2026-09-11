@@ -18,7 +18,7 @@ This submission follows the assessment AI policy. Generative AI tools were used 
 
 ---
 
-## Task 1 — Financial AI (`Financial_AI/`)
+## Task 1 — Financial AI (`task1_financial/`)
 
 ### Cursor (development)
 
@@ -41,7 +41,7 @@ This submission follows the assessment AI policy. Generative AI tools were used 
 
 ---
 
-## Task 3 — Agentic workflow (`Agentic_workflow/`)
+## Task 3 — Agentic workflow (`task3_agentic/`)
 
 ### Cursor (development)
 

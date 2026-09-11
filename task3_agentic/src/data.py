@@ -1,4 +1,4 @@
-"""Download and cache daily OHLCV bars. Reused from Task 1 Financial_AI."""
+"""Download and cache daily OHLCV bars. Reused from Task 1 task1_financial."""
 
 from __future__ import annotations
 

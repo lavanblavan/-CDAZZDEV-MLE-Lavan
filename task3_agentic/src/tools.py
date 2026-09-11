@@ -1,4 +1,4 @@
-"""Five agent tools. Implementations reuse Task 1 Financial_AI modules.
+"""Five agent tools. Implementations reuse Task 1 task1_financial modules.
 
 The LLM chooses which of these to call and in what order. Do not hard-code
 a call sequence in the graph.
