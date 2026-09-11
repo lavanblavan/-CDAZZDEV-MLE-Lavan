@@ -12,8 +12,8 @@ __pycache__/
 .pytest_cache/
 
 # Nested git repos (each task was developed in its own repo)
-task1_financial/.git/
-task3_agentic/.git/
+Financial_AI/.git/
+Agentic_workflow/.git/
 
 # IDE / OS
 .DS_Store
@@ -21,14 +21,14 @@ Thumbs.db
 .cursor/
 
 # Task-specific generated files (see each task .gitignore)
-task1_financial/data/*.csv
-task1_financial/outputs/*
-!task1_financial/outputs/.gitkeep
-task3_agentic/data/*.csv
-task3_agentic/logs/*.jsonl
-task3_agentic/logs/*.json
-task3_agentic/logs/cache/
-task3_agentic/outputs/*
-!task3_agentic/outputs/.gitkeep
-!task3_agentic/logs/.gitkeep
-task3_agentic/vendor_financial_ai/
+Financial_AI/data/*.csv
+Financial_AI/outputs/*
+!Financial_AI/outputs/.gitkeep
+Agentic_workflow/data/*.csv
+Agentic_workflow/logs/*.jsonl
+Agentic_workflow/logs/*.json
+Agentic_workflow/logs/cache/
+Agentic_workflow/outputs/*
+!Agentic_workflow/outputs/.gitkeep
+!Agentic_workflow/logs/.gitkeep
+Agentic_workflow/vendor_financial_ai/

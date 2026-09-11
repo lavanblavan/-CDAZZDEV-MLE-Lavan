@@ -68,9 +68,9 @@ AI tool disclosure: [`CITATIONS.md`](../CITATIONS.md) (repo root).
 
 ## Colab run
 
-[Open task1.ipynb in Colab](https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/task1_financial/task1.ipynb)
+[Open task1.ipynb in Colab](https://colab.research.google.com/github/lavanblavan/-CDAZZDEV-MLE-Lavan/blob/main/Financial_AI/task1.ipynb)
 
-Cell 1 clones the submission repo into `/content/CDAZZDEV-MLE-Lavan`, enters `task1_financial/`, installs `requirements.txt`, then imports `src`. Add `GROQ_API_KEY` in Colab Secrets before running.
+Cell 1 clones the submission repo into `/content/CDAZZDEV-MLE-Lavan`, enters `Financial_AI/`, installs `requirements.txt`, then imports `src`. Add `GROQ_API_KEY` in Colab Secrets before running.
 
 Opening a notebook from GitHub does **not** copy `src/` with it — the clone step is required.
 
